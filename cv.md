@@ -4,6 +4,8 @@
 
 ### skype: vsot_89
 
+### github: https://github.com/vitaliisotnichenko
+
 ## My goals:
 
 ### I'm looking for the company where I have a chance to get comprehensive development in terms of Fronted development,
