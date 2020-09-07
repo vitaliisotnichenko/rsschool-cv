@@ -67,8 +67,3 @@
 - Master's degree in HR
 - ISTQB - Foundation and Adavnced (Test Analyst)
 - QA Automation JS course (Otus)
-
-## English
-
-1. Upper-Intermediate level
-2. Every day speaking (the comnpany langauge is English)
