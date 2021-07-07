@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <div style="margin: 0 auto">
+        <h1 style="color: blueviolet" align="center">Vitalii Sotnichenko</h1>
+        <header></header>
+        <h2 class="color-items"> Contact Information</h2>
+        <img src="my_photo.jpg" alt="cv_photo" width="300" height="300" style="float: right;">
+        <h4>e-mail: vitalii.sotnichenko@gmail.com</h4>
+        <h4>skype: vsot_89</h4>
+        <h4>github: https://github.com/vitaliisotnichenko</h4>
+        </header>
+        
+        <h2 align="center" class="color-items">My goals</h2>
+        <h3></h3>I'm looking for the company where I have a chance to get
+        comprehensive development in terms of Fronted development, achiving my
+        wishes and roadmap.
+        <p></p>I prefer company with no bureacracy and flexible
+        approach to work</p>
+        <p>Summary - more than 5 years experience in IT as QA
+            Engineer - hands-on experience with UI, backend testing activities 
+            - set up the automation on the project from scratch - have experience with
+            containerization tools, various test frameworks, CI/CD tools - collaboration
+            with cross national team</p>
+        </h3>
+        
+        <h2 align="center" class="color-items">Skills</h2>
+        <ol>
+            <li>JS, Python programming languages - basic level</li>
+            <li>Git, Bitbucket, JIRA, Confluence, TestRail</li>
+            <li>REST API,Swagger, cURL</li>
+            <li>CI (Jenkins, Bamboo)</li>
+            <li>Testing frameworks (CodeceptJS,RobotFramework)</li>
+            <li>Allure, Selenoid, Moon, docker </li>
+            <li>Linux, MySQL</li>
+        </ol>
+        
+        
+        <h2 align="center" class="color-items">Code Examples - CodeceptJS</h2>
+        <h4>
+            <p><i>
+                    Feature("Add tasks")
+                    Before((I) => { </br>
+                    I.amOnPage('/') })</br>
+                    Data(function\*() {</br>
+                    yield { text: 'undefined'};</br>
+                    yield { text: 'undef'}; </br>
+                    yield { text: 'null'}; </br>
+                    yield { text: 'true'}; </br>
+                    yield { text: 'False'}; </br>
+                    }).Scenario('Add tasks with different data', (I,</br>
+                    current) => { > I.fillField('#new-todo', current.text)</br>
+                    I.pressKey('Enter')</br>
+                    I.see(current.text)</br>
+                    })</i></p>
+        </h4>
+        
+        
+        <h2 align="center" class="color-items">Experience</h2>
+        <ul>
+            <li>QA Automation Engineer - IntellectEU
+                <p>Since April 2019</p>
+            </li>
+            <li>Senior QA - Ciklum
+                <p>August 2018 - April 2019</p>
+            </li>
+            <li>QA Engineer - SPD-Ukraine
+                <p>August 2016 - August 2018</p>
+            </li>
+            <li>Own automation framework based on Python
+                <p>https://github.com/vitaliisotnichenko/python_automation</p>
+            </li>
+        </ul>
+        
+        
+        <h2 align="center" class="color-items"></h2>Education</h2>
+        <ul>
+            <li>Master's degree in System Programming</li>
+            <li>Master's degree in HR</li>
+            <li>ISTQB -Foundation and Adavnced (Test Analyst)</li>
+            <li>QA Automation JS course (Otus</li>
+        </ul>
+        
+        <h2 align="center" class="color-items">English</h2>
+        <ul>
+            <li>Upper-Intermediate level</li>
+            <li>Every day speaking (the comnpany langauge is English)</li>
+        </ul>
+    </div>
+  </body>
+</html>
+
+<style>
+    .color-items{
+        color: blue
+    }
+</style>
